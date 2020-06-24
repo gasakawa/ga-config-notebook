@@ -1,0 +1,67 @@
+{
+  "workbench.colorTheme": "Nord",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "editor.fontSize": 14,
+  "explorer.compactFolders": false,
+  "breadcrumbs.enabled": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "vsicons.associations.folders": [
+    {
+      "icon": "tools",
+      "extensions": ["migrations"],
+      "format": "svg",
+      "overrides": "migrations"
+    },
+    {
+      "icon": "class",
+      "extensions": ["schemas"],
+      "format": "svg",
+      "overrides": "schemas"
+    },
+    {
+      "icon": "typescript",
+      "extensions": ["dtos"],
+      "format": "svg",
+      "overrides": "dtos"
+    },
+
+    {
+      "icon": "mock",
+      "extensions": ["fakes"],
+      "format": "svg",
+      "overrides": "fakes"
+    },
+    {
+      "icon": "tools",
+      "extensions": ["seeds"],
+      "format": "svg",
+      "overrides": "seeds"
+    }
+  ],
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.shell.linux": "/bin/bash",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+  "explorer.confirmDelete": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true
+  }
+}
